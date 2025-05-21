@@ -10,13 +10,6 @@ import os
 CHROME_BINARY_PATH = "/Users/macm1/Downloads/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing"
 DOWNLOADS_DIR = os.path.expanduser("~/Downloads")
 
-list = ["4.0",
-    "4.1",
-    "4.2",
-    "4.3",
-    "4.4",
-    "4.5"]
-
 options = Options()
 options.binary_location = CHROME_BINARY_PATH
 # options.add_argument("--start-maximized")
@@ -24,6 +17,12 @@ options.binary_location = CHROME_BINARY_PATH
 service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service, options=options)
 
+list = ["4.0",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5"]
 # startNumber = 3.7
 
 def startDection(startNumber):
