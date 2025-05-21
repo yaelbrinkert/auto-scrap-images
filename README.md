@@ -4,7 +4,7 @@ Small python script that automatically download images from urls
 ## So, I had a problem.
 ### I needed all Fortnite maps for a project, but it would've take too much time to download them manually.
 
-Here is how I solved my problem without actually downloading them manually. \
+Here is how I solved my problem without actually downloading them manually.
 
 To make this project work, you'll need to download "Google Chrome for Testing" (I used Python 3.13, and downloaded the 136.0.7103.94 version Google Testing app through this [list](https://googlechromelabs.github.io/chrome-for-testing/) \
 Then install requirements (you need pip installed, use this command : pip install -r requirements.txt)
