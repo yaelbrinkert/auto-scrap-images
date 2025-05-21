@@ -13,12 +13,12 @@ Then install requirements (you need pip installed, use this command : pip instal
 
 At first, you can see we define the path to find Chrome Testing, then we define our Downloads directory. \
 Then, we define all options to make Google Testing app work with ChromeDriver. \
-For this specific use, I had to simply loop into different versions of maps. We have an array (a list) of versions we want to retrieve. \
+For this specific use, I had to simply loop into different versions of maps. We have an array (a list) of versions we want to retrieve.
 
 We have a function, that takes as argument 'startNumber'. We could change this to 'myUrl', and use a list of url we want to loop in. \
 This function opens a new tab in a new google testing browser, we then check if we already saved the file (by checking the file names). \
 I made an other 'if statement' that is also specific to my case, that looks if the html "title" tag is equal to a 404 (not found) or a specific string (here : Page Not Found - Fortnite.GG). \
-If these two statements did not intervene, this means we can begin the actual work : we accessed the image url, we then use "PyAutoGui" to press commands & keys (here, "command + s" (for mac) to open the saving pop-up, then "enter" to click the "Save" button (Blue button (on mac) you can see when you try saving an image). \
+If these two statements did not intervene, this means we can begin the actual work : we accessed the image url, we then use "PyAutoGui" to press commands & keys (here, "command + s" (for mac) to open the saving pop-up, then "enter" to click the "Save" button (Blue button (on mac) you can see when you try saving an image).
 
 I may have more ideas to make this helpful and globally interesting, this is too niche for the moment. If you have an idea, a request or a question, don't mind asking me : \
 My discord : yael#2898 (yaelou)
